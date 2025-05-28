@@ -1,3 +1,4 @@
+import java.awt.Color;
 import javax.swing.*;
 
 public class Main {
@@ -7,6 +8,11 @@ public class Main {
     JFrame mframe = new JFrame();
     mframe.setTitle("Zephr " + version);
     mframe.setSize(420, 420);
+    mframe.getContentPane().setBackground(Color.black);
+
+
+
+    
     mframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     mframe.setResizable(true);
     mframe.setVisible(true);
